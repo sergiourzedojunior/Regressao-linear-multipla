@@ -129,6 +129,8 @@ Valores de VIF maiores que 5 indicam alta multicolinearidade.
 
 - R-squared para o conjunto de testes: 0.1412590339987353
 
+OBS: com valores padronizados o resultado é praticamente o mesmo
+
 **segundo modelo:** 
 * segundo modelo: com variável dummy
 
