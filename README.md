@@ -8,29 +8,8 @@ Aplicações em python com dados financeiros do livro Análise Multivariada da F
 
 file: regressao_linear_multipla.ipynb
 
-Selecionar a variável independente inicial
-   Será selecionada aquela que apresentar a maior correlação com a variável dependente
-|
-|--- A variação percentual explicada é significativa estatisticamente?
-|    |
-|    |--- Sim
-|    |    |
-|    |    |--- Existem outras variáveis independentes disponíveis?
-|    |    |    |
-|    |    |    |--- Não
-|    |    |    |    Examinar a adequação da equação preditiva final
-|    |    |    |
-|    |    |    |--- Sim
-|    |    |    |    Selecionar a próxima variável independente
-|    |    |    |
-|    |    |    |--- A variação percentual explicada pelo conjunto de variáveis é significativa?
-|    |    |    |    Verificar com testes F e t cada variável
-|    |    |    |
-|    |    |    |--- Não
-|    |    |         Excluir as variáveis não significativas
-|    |
-|    |--- Não
-|         Não há previsão possível com regressão múltipla
+![tabela2](figs/tabela2.png) 
+
 
 
 ## Resumo:
