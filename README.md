@@ -80,6 +80,30 @@ Selecionar a variável independente inicial
 **Resultados:**
 * primeiro modelo:
 
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                     RP   R-squared:                       0.796
+Model:                            OLS   Adj. R-squared:                  0.795
+Method:                 Least Squares   F-statistic:                     574.7
+Date:                Thu, 21 Mar 2024   Prob (F-statistic):          2.60e-102
+Time:                        11:51:04   Log-Likelihood:                -1057.4
+No. Observations:                 297   AIC:                             2121.
+Df Residuals:                     294   BIC:                             2132.
+Df Model:                           2                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+Intercept     -0.9448      0.497     -1.900      0.058      -1.924       0.034
+RA            28.0340      0.879     31.890      0.000      26.304      29.764
+MV            -6.1135      0.670     -9.127      0.000      -7.432      -4.795
+==============================================================================
+Omnibus:                      270.045   Durbin-Watson:                   1.977
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):            92770.628
+Skew:                           2.653   Prob(JB):                         0.00
+Kurtosis:                      89.420   Cond. No.                         2.10
+==============================================================================
+
 R-squared: 0.7963222749266814
 Adjusted R-squared: 0.7949367121710806
 F-statistic: 574.7284067125353
