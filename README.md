@@ -59,31 +59,9 @@ file: regressao_linear_multipla.ipynb
 **Resultados:**
 * primeiro modelo:
 
-                            OLS Regression Results                            
-==============================================================================
-Dep. Variable:                     RP   R-squared:                       0.796
-Model:                            OLS   Adj. R-squared:                  0.795
-Method:                 Least Squares   F-statistic:                     574.7
-Date:                Thu, 21 Mar 2024   Prob (F-statistic):          2.60e-102
-Time:                        11:51:04   Log-Likelihood:                -1057.4
-No. Observations:                 297   AIC:                             2121.
-Df Residuals:                     294   BIC:                             2132.
-Df Model:                           2                                         
-Covariance Type:            nonrobust                                         
-==============================================================================
-                 coef    std err          t      P>|t|      [0.025      0.975]
-------------------------------------------------------------------------------
-Intercept     -0.9448      0.497     -1.900      0.058      -1.924       0.034
-RA            28.0340      0.879     31.890      0.000      26.304      29.764
-MV            -6.1135      0.670     -9.127      0.000      -7.432      -4.795
-==============================================================================
-Omnibus:                      270.045   Durbin-Watson:                   1.977
-Prob(Omnibus):                  0.000   Jarque-Bera (JB):            92770.628
-Skew:                           2.653   Prob(JB):                         0.00
-Kurtosis:                      89.420   Cond. No.                         2.10
-==============================================================================
+![result1](figs/result1.png) 
 
-R-squared: 0.7963222749266814
+<!-- R-squared: 0.7963222749266814
 Adjusted R-squared: 0.7949367121710806
 F-statistic: 574.7284067125353
 Prob (F-statistic): 0.0
@@ -130,39 +108,15 @@ For every one-unit increase in 'MV', we expect 'RP' to change by -6.113507421618
 
 
 R-squared for the testing set: 0.1412590339987353
-The model explains very little of the variability in the target variable. It's not a good fit for the data.
+The model explains very little of the variability in the target variable. It's not a good fit for the data. -->
 
 
 * segundo modelo: com variável dummy
 
-                            OLS Regression Results                            
-==============================================================================
-Dep. Variable:                     RP   R-squared:                       0.752
-Model:                            OLS   Adj. R-squared:                  0.751
-Method:                 Least Squares   F-statistic:                     446.7
-Date:                Thu, 21 Mar 2024   Prob (F-statistic):           7.67e-90
-Time:                        11:51:05   Log-Likelihood:                -1086.4
-No. Observations:                 297   AIC:                             2179.
-Df Residuals:                     294   BIC:                             2190.
-Df Model:                           2                                         
-Covariance Type:            nonrobust                                         
-===============================================================================
-                  coef    std err          t      P>|t|      [0.025      0.975]
--------------------------------------------------------------------------------
-Intercept       2.4828      0.960      2.587      0.010       0.594       4.371
-LUPRE_dummy    -4.8275      1.194     -4.044      0.000      -7.177      -2.478
-RA             24.2408      0.818     29.645      0.000      22.631      25.850
-==============================================================================
-Omnibus:                      261.711   Durbin-Watson:                   2.048
-Prob(Omnibus):                  0.000   Jarque-Bera (JB):           100140.389
-Skew:                           2.464   Prob(JB):                         0.00
-Kurtosis:                      92.821   Cond. No.                         3.34
-==============================================================================
+![result2](figs/result2.png) 
 
-Notes:
-[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
 
-ANOVA results
+<!-- ANOVA results
                 df        sum_sq       mean_sq           F        PR(>F)
 LUPRE_dummy    1.0   1292.310936   1292.310936   14.525536  1.684288e-04
 RA             1.0  78185.741179  78185.741179  878.805358  2.514308e-90
@@ -202,7 +156,7 @@ The weight of predictor 'RA' in the final model is -4.8275114934565675
 The weight of predictor 'MV' in the final model is 24.240771584202506
 
 R-squared for the testing set: 0.47508484546253604
-The model explains a small portion of the variability in the target variable. It may not be a good fit for the data.
+The model explains a small portion of the variability in the target variable. It may not be a good fit for the data. -->
 
 
 **Conclusões:**
