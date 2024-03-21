@@ -137,28 +137,28 @@ Valores de VIF maiores que 5 indicam alta multicolinearidade.
 
 *  ANOVA Results
 
-| ANOVA results | df    | sum_sq          | mean_sq       | F             | PR(>F) |
-
+| ANOVA results | df    | sum_sq          | mean_sq       | F             | PR(>F)       |
+|---------------|-------|---------------==|---------------|---------------|--------------|
 | LUPRE_dummy   | 1.0   | 1292.310936     | 1292.310936   | 14.525536     | 1.684288e-04 |
 | RA            | 1.0   | 78185.741179    | 78185.741179  | 878.805358    | 2.514308e-90 |
-| Residual      | 294.0 | 26156.654248    | 88.968212     | NaN           | NaN |
+| Residual      | 294.0 | 26156.654248    | 88.968212     | NaN           | NaN          |
 
 *  VIF Results
 
-| VIF Factor    | features |
-
-| 7169.281698   | NÚMERO |
-| 7273.504521   | ID |
-| 4.404337      | vendas |
-| 2.458279      | plajust |
-| 4.194092      | llajust |
-| 4.646259      | ativoaj |
-| 7.096914      | RP |
-| 1.875624      | AO |
-| 2.808167      | MV |
-| 10.476515     | RA |
-| 1.871562      | AF |
-| inf           | LUPRE |
+| VIF Factor    | features    |
+|---------------|-------------|
+| 7169.281698   | NÚMERO      |
+| 7273.504521   | ID          |
+| 4.404337      | vendas      |
+| 2.458279      | plajust     |
+| 4.194092      | llajust     |
+| 4.646259      | ativoaj     |
+| 7.096914      | RP          |
+| 1.875624      | AO          |
+| 2.808167      | MV          |
+| 10.476515     | RA          |
+| 1.871562      | AF          |
+| inf           | LUPRE       |
 | inf           | LUPRE_dummy |
 
 VIF values greater than 5 indicate high multicollinearity.
